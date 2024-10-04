@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global News</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-red-500 text-white p-5 flex justify-between items-center">
+        <h1 class="text-3xl font-bold">#GLOBALNEWS</h1>
+        <span>Lunes, 04 de Octubre 2024</span>
+    </header>
+
+    <!-- Lo más visto -->
+    <section class="p-8">
+        <h2 class="text-2xl font-bold mb-4">Lo más visto</h2>
+        
+        <!-- Botones de navegación -->
+        <div class="flex space-x-4 mb-6">
+            <button class="bg-red-500 text-white px-4 py-2 rounded">Lo más visto</button>
+            <button class="bg-gray-300 text-black px-4 py-2 rounded">Europa</button>
+            <button class="bg-gray-300 text-black px-4 py-2 rounded">Internacional</button>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 mt-5">
+            <!-- Repite este bloque para cada noticia -->
+            <article class="bg-white p-4 shadow-lg">
+                <img src="path-to-image.jpg" alt="Noticia" class="w-full h-40 object-cover">
+                <h3 class="mt-4 font-bold">Maggie Smith, leyenda del cine</h3>
+                <p class="text-gray-600 mt-2">Muere Maggie Smith, la legendaria actriz británica...</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-gray-200 p-8">
+        <h2 class="text-xl font-bold">NewsLetter</h2>
+        <div class="mt-4 flex">
+            <input type="email" placeholder="Ingresa tu correo" class="p-3 w-full border rounded-l">
+            <button class="bg-blue-500 text-white px-4 rounded-r">Suscribirse</button>
+        </div>
+    </section>
+
+    <!-- Noticias Europa -->
+    <section class="p-8">
+        <h2 class="text-2xl font-bold">Noticias Europa</h2>
+        
+        <!-- Botones de navegación -->
+        <div class="flex space-x-4 mb-6">
+            <button class="bg-gray-300 text-black px-4 py-2 rounded">Lo más visto</button>
+            <button class="bg-red-500 text-white px-4 py-2 rounded">Europa</button>
+            <button class="bg-gray-300 text-black px-4 py-2 rounded">Internacional</button>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4">
+            <article class="col-span-2 bg-white p-4 shadow-lg">
+                <img src="path-to-image.jpg" alt="Noticia" class="w-full h-64 object-cover">
+                <h3 class="mt-4 font-bold">Muere Maggie Smith</h3>
+                <p class="text-gray-600 mt-2">La legendaria actriz británica...</p>
+            </article>
+            <div class="flex flex-col gap-4">
+                <article class="bg-white p-4 shadow-lg">
+                    <img src="path-to-image.jpg" alt="Noticia" class="w-full h-32 object-cover">
+                    <h3 class="mt-4 font-bold">Maggie Smith</h3>
+                    <p class="text-gray-600 mt-2">Leyenda del cine...</p>
+                </article>
+                <article class="bg-white p-4 shadow-lg">
+                    <img src="path-to-image.jpg" alt="Noticia" class="w-full h-32 object-cover">
+                    <h3 class="mt-4 font-bold">Noticias Europa</h3>
+                    <p class="text-gray-600 mt-2">Últimas actualizaciones...</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Noticias Globales -->
+    <section class="p-8">
+        <h2 class="text-2xl font-bold">Noticias Globales</h2>
+        
+        <!-- Botones de navegación -->
+        <div class="flex space-x-4 mb-6">
+            <button class="bg-gray-300 text-black px-4 py-2 rounded">Lo más visto</button>
+            <button class="bg-gray-300 text-black px-4 py-2 rounded">Europa</button>
+            <button class="bg-red-500 text-white px-4 py-2 rounded">Internacional</button>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 mt-5">
+            <!-- Repite este bloque para cada noticia -->
+            <article class="bg-white p-4 shadow-lg">
+                <img src="path-to-image.jpg" alt="Noticia" class="w-full h-40 object-cover">
+                <h3 class="mt-4 font-bold">Maggie Smith, leyenda del cine</h3>
+                <p class="text-gray-600 mt-2">Muere Maggie Smith, la legendaria actriz británica...</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-red-500 text-white text-center p-5">
+        <div class="flex justify-center gap-4 mb-4">
+            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>© Global News 2024</p>
+    </footer>
+</body>
+</html>
